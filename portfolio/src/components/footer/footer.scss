@@ -1,0 +1,19 @@
+@import "../../assets/stylesheet/variables.scss";
+
+
+#Footer{
+    height: 12vh ;
+    grid-area: Footer;
+    display: grid;
+    border : $stroke;
+    grid-template-columns: min-content 1fr 1fr 1fr 1fr 1fr 1fr min-content;
+    grid-template-areas: "LeftCube . . . . . . RightCube";
+}
+
+.Left{
+    grid-area: LeftCube;
+}
+
+.Right{
+    grid-area: RightCube;
+}

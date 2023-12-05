@@ -1,0 +1,24 @@
+@import "../../assets/stylesheet/variables.scss";
+    
+#Header{
+    grid-area: Header;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content;
+    grid-template-areas: "Cube1 . . . . . . . . . Cube2";
+}
+
+
+.Cube{
+    height: 4em;
+    width: 4em;
+}
+
+
+.Cube1{
+    grid-area: Cube1;
+}
+
+.Cube2{
+    grid-area: Cube2;
+}
+

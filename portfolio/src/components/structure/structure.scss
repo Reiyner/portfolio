@@ -1,0 +1,30 @@
+@import "../../assets/stylesheet/variables.scss";
+
+%cube{
+    background-color: $dark-color;
+    border:$stroke;   
+    height: 1fr;
+    width: 1fr;
+}
+
+@for $i from 1 through 7{
+    .#{"cube#{$i}"}{
+        @extend %cube;
+        grid-area: cube#{$i};
+
+    }
+}
+.long{
+    background-color: $dark-color;
+    grid-area: long;
+    border: $stroke;
+    height: 1fr;
+    min-width: 63vw;
+}
+
+#Structure{
+    grid-area: Structure;
+    display: grid;
+    grid-template-columns: min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content;
+    grid-template-areas: "cube1 . cube2 . cube3 . cube4 . cube5 . cube6 . cube7 . long";
+}

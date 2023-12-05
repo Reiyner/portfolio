@@ -1,0 +1,31 @@
+@import "../../assets/stylesheet/variables.scss";
+
+
+.Body{
+    height: 70vh;
+    width: 85vw;
+    grid-area: Body;
+    border : $stroke;
+}
+
+#Home{
+    background-color: $background-color;
+    display: grid;
+    grid-template-columns: $page-margin min-content $page-margin min-content $page-margin;
+    grid-template-rows: $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin;
+    grid-template-areas: 
+    ". . . . ."
+    ". Side . Structure . "
+    ". Side . . . "
+    ". Side . Header ."
+    ". Side . . . "
+    ". Side . Body ."
+    ". Side . . . "
+    ". Side . Footer . "
+    ". . . . .";
+    
+    
+    
+    min-height: 100vh;
+    min-width: 100vw;
+}

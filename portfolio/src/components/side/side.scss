@@ -1,0 +1,7 @@
+@import "../../assets/stylesheet/variables.scss";
+
+#Side{
+    width: 10vw;
+    grid-area: Side;
+    border: $stroke ;
+}
