@@ -3,14 +3,20 @@
 #Header{
     grid-area: Header;
     display: grid;
-    grid-template-columns: min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content 1fr min-content;
-    grid-template-areas: "Cube1 . . . . . . . . . Cube2";
+    grid-template-columns: min-content 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr min-content;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Cube1 . . . . . . . . . Cube2"
+    "Cube1 . HeadButton1 . HeadButton2 . HeadButton3 . HeadButton4 . Cube2"
+    "Cube1 . . . . . . . . . Cube2";
 }
 
 
 .Cube{
-    height: 4em;
-    width: 4em;
+    border: $stroke;
+    max-width: 4vh;
+    max-height: 4vh;
+
 }
 
 

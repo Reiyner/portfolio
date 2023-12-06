@@ -2,18 +2,26 @@
 
 
 #Footer{
-    height: 12vh ;
+    max-height: 12vh ;
     grid-area: Footer;
     display: grid;
     border : $stroke;
     grid-template-columns: min-content 1fr 1fr 1fr 1fr 1fr 1fr min-content;
+    grid-template-rows: 12vh;
     grid-template-areas: "LeftCube . . . . . . RightCube";
+    p{
+        color: $dark-color;
+    }
 }
 
 .Left{
     grid-area: LeftCube;
+    max-height: 100%;
+    clip-path: polygon(0% 0%,0% 95%,95% 0%);
 }
 
 .Right{
     grid-area: RightCube;
+    max-height: 100%;
+    clip-path: polygon(100% 100%,10% 100%,100% 10%);
 }

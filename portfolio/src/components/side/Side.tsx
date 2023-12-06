@@ -1,6 +1,11 @@
 import './side.scss'
-export default function Side(){
+
+export default function Side(props: any){
+    
     return(
-        <div id="Side"></div>
+        <div id="Side">
+            <img src={props.pic}
+            alt="" />
+        </div>
     )
 }

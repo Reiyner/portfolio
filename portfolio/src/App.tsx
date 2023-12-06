@@ -1,13 +1,13 @@
-import './App.css'
+import './App.scss'
 import {BrowserRouter} from 'react-router-dom';
-import Navigator from './components/navigation/Navigator';
+import Page from './components/page/Page';
 
 function App() {
 
   return (
     <div className='App'>
       <BrowserRouter>
-      <Navigator/>
+      <Page/>
       </BrowserRouter>
     </div>
   )

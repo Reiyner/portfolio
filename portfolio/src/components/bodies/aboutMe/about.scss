@@ -1,0 +1,36 @@
+@import '../../../assets/stylesheet/variables.scss';
+
+.About{
+
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8vh min-content 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". . . . . ."
+    ". ProfilePic Hi . . . "
+    ". AboutP AboutP AboutP AboutP ."
+    ". AboutP AboutP AboutP AboutP ."
+    ". . . . . .";
+
+
+    img{
+        grid-area: ProfilePic;
+        max-width: 10vh;
+        border: $stroke;
+    }
+
+    h1{
+        margin: 0;
+        grid-area: Hi;
+        font-size: 50px;
+        color: $dark-color;
+        text-align: left;
+        vertical-align: bottom;
+    }
+    p{  
+        grid-area: AboutP;
+        text-align: justify;
+        color: $dark-color;
+        font-size: large;
+        white-space: pre-wrap;}
+}

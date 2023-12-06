@@ -1,0 +1,15 @@
+@import '../../../assets/stylesheet/variables.scss';
+
+%HeadButton{
+    grid-area: HeadButton;
+    color: $dark-color;
+    font-size: 20px;
+    text-align: center
+}
+
+@for $i from 1 through 4{
+    .#{"HeadButton#{$i}"}{
+        @extend %HeadButton;
+        grid-area: HeadButton#{$i};
+    }
+}

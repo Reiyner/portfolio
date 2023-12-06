@@ -1,7 +1,15 @@
 @import "../../assets/stylesheet/variables.scss";
 
 #Side{
-    width: 10vw;
+    object-fit: cover;
     grid-area: Side;
+    display: grid;
     border: $stroke ;
+    overflow: hidden;
+    img{
+        grid-area: img;
+        object-position: -250px;
+        max-height: 97vh;
+    }
+
 }
