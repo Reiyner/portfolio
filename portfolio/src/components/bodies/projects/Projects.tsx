@@ -1,4 +1,4 @@
-export default function Website(){
+export default function Projects(){
     return(
         <div className="Body">
 

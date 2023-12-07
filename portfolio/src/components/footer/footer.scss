@@ -3,15 +3,48 @@
 
 #Footer{
     max-height: 12vh ;
+    align-items: center;
+    justify-items: center;
     grid-area: Footer;
     display: grid;
     border : $stroke;
-    grid-template-columns: min-content 1fr 1fr 1fr 1fr 1fr 1fr min-content;
-    grid-template-rows: 12vh;
-    grid-template-areas: "LeftCube . . . . . . RightCube";
+    grid-template-columns: min-content 1fr 3vw 3vw 3vw 1fr min-content;
+    grid-template-rows: 3vh 3vh 3vh 3vh;
+    grid-template-areas:
+    "LeftCube . . . . . RightCube"
+    "LeftCube MyName Git LinkedIn Proton Title1 RightCube"
+    "LeftCube MyName Git LinkedIn Proton Title2 RightCube"
+    "LeftCube . . . . . RightCube";
     p{
         color: $dark-color;
     }
+}
+
+.Git{
+    grid-area: Git;
+}
+
+.LinkedIn{
+    grid-area: LinkedIn;
+}
+
+.Proton{
+    grid-area: Proton;
+}
+
+.Name{
+    font-size: 25px;
+    font-weight: bold;
+    grid-area: MyName;
+}
+
+.Title1{
+    grid-area: Title1;
+    font-weight: bold ;
+}
+
+.Title2{
+    grid-area: Title2;
 }
 
 .Left{
@@ -24,4 +57,10 @@
     grid-area: RightCube;
     max-height: 100%;
     clip-path: polygon(100% 100%,10% 100%,100% 10%);
+}
+
+@media screen and (max-width:800px){
+    #Footer{
+        display: none;
+    }
 }

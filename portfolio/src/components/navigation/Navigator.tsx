@@ -3,7 +3,7 @@ import Home from '../bodies/home/Home';
 import Work from '../bodies/work/Work';
 import AboutMe from '../bodies/aboutMe/AboutMe';
 import Education from '../bodies/education/Education';
-import Website from '../bodies/website/Website';
+import Projects from '../bodies/projects/Projects';
 
 export default function Navigator(){
     return(
@@ -13,7 +13,7 @@ export default function Navigator(){
             <Route path={"/about"} element={<AboutMe/>}></Route>
             <Route path={"/education"} element={<Education/>}></Route>
             <Route path={"/work"} element={<Work/>}></Route>
-            <Route path={"/website"} element={<Website></Website>}></Route>
+            <Route path={"/projects"} element={<Projects></Projects>}></Route>
         </Routes>
         </>
     )

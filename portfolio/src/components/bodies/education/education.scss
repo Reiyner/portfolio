@@ -1,0 +1,19 @@
+@import '../../../assets/stylesheet/variables.scss';
+
+.Education{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    h1{
+        color: $dark-color;
+        font-size: 20px;
+        white-space: pre-wrap;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 15px;
+        text-align: center;
+        white-space: pre-wrap;
+        color: $dark-color;
+    }
+}

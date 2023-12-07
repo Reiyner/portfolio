@@ -11,5 +11,21 @@
         object-position: -250px;
         max-height: 97vh;
     }
+}
+@media screen and (max-width: 800px){
 
+#Side{
+    display: none;
+    max-height: 6vh;
+    z-index: 1;
+    grid-column-start: 2;
+    grid-column-end: 10;
+
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    img{
+        max-height: 70%;
+    }
+} 
 }

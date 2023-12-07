@@ -4,10 +4,11 @@ import "./header.scss";
 
 export default function Header(){
     const pages = [
-        {id:1,name:"About me",to:"/about"},
-        {id:2,name:"Education",to:"/education"},
-        {id:3,name:"Work Experience",to:"/work"},
-        {id:4,name:"This Website",to:"/website"},
+        {id:1,name:'Home',to:'/'},
+        {id:2,name:"About me",to:"/about"},
+        {id:3,name:"Education",to:"/education"},
+        {id:4,name:"Work Experience",to:"/work"},
+        {id:5,name:"Projects",to:"/projects"},
 
     ]
     const headerButtons = pages.map(({id,name,to})=>
@@ -15,10 +16,21 @@ export default function Header(){
     );
 
     return(
+        <>
         <div id="Header">
             <img src={cube} className="Cube Cube1"></img>
             {headerButtons}
             <img src={cube} className="Cube Cube2"></img>
         </div>
+        <div id="Dropdown">
+            <img src={cube} className="Cube Cube1"></img>
+            <button className="dropbtn">button</button>
+            <div className="content">    
+                {headerButtons}
+            </div>
+            <img src={cube} className="Cube Cube2"></img>
+        </div>
+        </>
     )
 }
+

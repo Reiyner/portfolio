@@ -7,7 +7,7 @@ import LogoButton from "../buttons/logoButtons/LogoButtons";
 
 export default function Footer(){
     const res = [
-        {id:1,src:LinkedIn,href:"www.linkedin.com/in/mpalkowski-pub",value:'LinkedIn'},
+        {id:1,src:LinkedIn,href:"https://www.linkedin.com/in/mpalkowski-pub",value:'LinkedIn'},
         {id:2,src:Git,href:"https://github.com/Reiyner",value:"Git"},
         {id:3,src:Proton,href:"maxence.palkowski_pro@proton.me",value:"Proton"}]
     
@@ -17,10 +17,10 @@ export default function Footer(){
     return(
         <div id="Footer">
             <img className="Left" src={cube}></img>
-            <p>MAXENCE PALKOWSKI</p>
+            <p className="Name">MAXENCE PALKOWSKI</p>
             {logo}
-            <p>Network & Infrastructure Engineer</p>
-            <p>Software Engineer - Full Stack Developer - DevOps </p>
+            <p className="Title1">Network & Infrastructure Engineer</p>
+            <p className="Title2">Software Engineer - Full Stack Developer - DevOps </p>
             <img className="Right" src={cube}></img>
         </div>
     )

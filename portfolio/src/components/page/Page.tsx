@@ -20,7 +20,7 @@ export default function Page(){
         {id:2,pic:htl,loc:"/about"},
         {id:3,pic:mtn,loc:"/education"},
         {id:4,pic:dog,loc:"/work"},
-        {id:5,pic:blc,loc:"/website"}
+        {id:5,pic:blc,loc:"/projects"}
     ]
     const [picture, setPicture] = useState(''); 
     

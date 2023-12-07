@@ -26,3 +26,14 @@
     grid-template-columns: min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content;
     grid-template-areas: "cube1 . cube2 . cube3 . cube4 . cube5 . cube6 . cube7 . long";
 }
+
+@media screen and (max-width:800px) {
+    .long{min-width: 44vw;}
+    #Structure{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 7;
+    }
+    
+}
