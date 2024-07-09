@@ -4,6 +4,13 @@
 .Body{
     grid-area: Body;
     border : $stroke;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+.Body::-webkit-scrollbar {
+display: none;
 }
 
 #Page{
@@ -42,14 +49,8 @@
         grid-column-end: 10;
         display: grid;
     
-        img{
-            display: none;
-        }
-
-        p{
-            display: none;
-        }
-
+       
+       
     }
 
 }   

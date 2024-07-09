@@ -3,7 +3,7 @@
 .Home{
     h1{
         grid-area: HomeH1;
-        font-size: 50px;
+        font-size: 3em;
         color: $dark-color ;}
         text-align: center;
     
@@ -11,14 +11,14 @@
         grid-area: Homep;
         text-align: center;
         color: $dark-color;
-        font-size: large;
+        font-size: 1.3em;
         white-space: pre-wrap;
         
            }
     display: grid;
     align-items: center;
     align-content: center;
-    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: $page-margin 1fr $page-margin;
     grid-template-rows: 1fr min-content  min-content 1fr;
     grid-template-areas:
     ". . ."

@@ -16,14 +16,14 @@
     background-color: $dark-color;
     grid-area: long;
     border: $stroke;
-    min-width: 74vw;
+    
 }
 
 #Structure{
     grid-area: Structure;
     display: grid;
     grid-template-rows: 1vh;
-    grid-template-columns: min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content;
+    grid-template-columns: min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin min-content $page-margin 1fr;
     grid-template-areas: "cube1 . cube2 . cube3 . cube4 . cube5 . cube6 . cube7 . long";
 }
 
@@ -31,9 +31,9 @@
     .long{min-width: 44vw;}
     #Structure{
         grid-row-start: 2;
-        grid-row-end: 2;
+        grid-row-end: 3;
         grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-end: 10;
     }
     
 }

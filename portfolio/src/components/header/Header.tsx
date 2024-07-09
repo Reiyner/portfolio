@@ -24,7 +24,7 @@ export default function Header(){
         </div>
         <div id="Dropdown">
             <img src={cube} className="Cube Cube1"></img>
-            <button className="dropbtn">button</button>
+            <button className="dropbtn">Menu</button>
             <div className="content">    
                 {headerButtons}
             </div>

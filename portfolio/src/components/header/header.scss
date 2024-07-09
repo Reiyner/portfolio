@@ -40,13 +40,13 @@
 #Dropdown {
     display: grid;
     grid-template-columns: 1vw min-content 1fr min-content 1vw ;
-    grid-template-rows:  min-content  ;
+    grid-template-rows: repeat(5,min-content);
     grid-template-areas:
     ". Cube1 Select Cube2 .";
     align-items: center;
     background-color: $background-color;
 
-    z-index: 2;
+    z-index: 1;
     grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -58,9 +58,12 @@
 }
 
 #Dropdown:hover .content{ 
+    align-self: center;
+    grid-area: Select;
     background-color: $background-color;
     display: grid;
-    grid-template-rows: repeat(5,max-content);
+    grid-template-rows: repeat(6,max-content);
+    grid-template-columns: 1fr;
     grid-template-areas: 
     "HeadButton1"
     "HeadButton2"
@@ -70,11 +73,25 @@
     z-index: 2;
 }
 
+#Dropdown:hover{
+    grid-template-areas: 
+    ". Cube1 . Cube2 ."
+    ". Cube1 Select Cube2 ."
+    ". Cube1 Select Cube2 ."
+    ". . Select . . "
+    ". . Select . . "
+    ". . Select . . "
+    ". . Select . . "
+    ". . Select . . "
+    ;
+}
+
 .dropbtn{
         grid-area: Select;
         background-color: $background-color;
         color: $dark-color;
         padding: 0;
         border: none;
+        font-size: 1.5em;
     }
 }

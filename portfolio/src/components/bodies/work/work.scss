@@ -1,0 +1,40 @@
+@import "../../../assets/stylesheet/variables.scss";
+
+.Work{
+    display: grid;
+    color: $dark-color;
+    align-items: center;
+    justify-items: center;
+    white-space: pre-wrap;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    '. . .'
+    '. Text .'
+    '. . .'
+    ;
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+
+.Ubisoft{
+    .Title{
+        grid-area: UbisoftTitle;
+    }
+    
+    .Description{
+        grid-area: UbisoftDescription;
+    }
+
+    .Missions{
+        grid-area: UbisoftMissions;
+    }
+
+    .MissionTitle{
+        grid-area: UbisoftMissionsTitle;
+    }
+}
