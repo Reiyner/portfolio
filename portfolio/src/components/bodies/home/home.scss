@@ -18,11 +18,18 @@
   display: grid;
   align-items: center;
   align-content: center;
-  grid-template-columns: $page-margin 1fr $page-margin;
+  grid-template-columns: $page-margin 1fr min-content 1fr $page-margin;
   grid-template-rows: 1fr min-content min-content 1fr;
   grid-template-areas:
-    ". . ."
-    ". HomeH1 ."
-    ". Homep ."
-    ". . .";
+    ". . . . ."
+    ". HomeH1 HomeH1 HomeH1 ."
+    ". Homep Homep Homep ."
+    ". . Arrow . ."
+    ". . . . .";
+}
+
+.Arrow{
+    grid-area: Arrow;
+    max-width: 50px;
+    justify-content: center;
 }

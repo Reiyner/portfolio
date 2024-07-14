@@ -27,6 +27,18 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+.Work{
+ grid-template-columns: 4vw min-content 4vw;
+ grid-template-areas:
+". . ."
+". Ubisoft ."
+". Delimiter ."
+". Straton ."
+". . ."
+ ;
+}
+}
 .Delimiter {
   grid-area: Delimiter;
   min-height: 5px;
@@ -45,5 +57,6 @@
 }
 
 .Straton {
+  margin: 4em 0;
   grid-area: Straton;
 }
