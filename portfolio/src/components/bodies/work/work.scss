@@ -11,9 +11,9 @@
   grid-template-columns: 4vh repeat(2, 1fr) 4vh;
   grid-template-areas:
     ". . . ."
-    ". Ubisoft . ."
+    ". Ubisoft ImageUbi ."
     ". Delimiter Delimiter ."
-    ". . Straton ."
+    ". ImageStraton Straton ."
     ". . . .";
   h1 {
     font-size: 2em;
@@ -22,22 +22,21 @@
     font-size: 1em;
     text-align: justify;
   }
-  li{
+  li {
     margin: 0.5em;
   }
 }
 
 @media screen and (max-width: 800px) {
-.Work{
- grid-template-columns: 4vw min-content 4vw;
- grid-template-areas:
-". . ."
-". Ubisoft ."
-". Delimiter ."
-". Straton ."
-". . ."
- ;
-}
+  .Work {
+    grid-template-columns: 4vw min-content 4vw;
+    grid-template-areas:
+      ". . ."
+      ". Ubisoft ."
+      ". Delimiter ."
+      ". Straton ."
+      ". . .";
+  }
 }
 .Delimiter {
   grid-area: Delimiter;
@@ -48,8 +47,29 @@
   margin: 9;
 }
 
+.ImageUbi{
+    grid-area: ImageUbi;
+    max-width: 30vw;
+    border: $stroke;
+  }
+.ImageStraton{
+    grid-area: ImageStraton;
+    max-width: 30vw;
+    border: $stroke;
+  }
+
 .Ubisoft {
   grid-area: Ubisoft;
+
+  .UMissionTitle {
+    grid-area: UMissionTitle;
+  }
+  .UTitle {
+    grid-area: UTitle;
+  }
+  .UDescription {
+    grid-area: UDescription;
+  }
 }
 
 .MissionTitle {

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="Body Home">
       <h1>{data.content.titleFr}</h1>
       <p>{data.content.bodyFr}</p>
-      <img className="Arrow" src = {arrow}/>
+      <img className="Arrow" src={arrow} />
     </div>
   );
 }
