@@ -3,11 +3,11 @@
 .Education {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-  ". Rotary ."
-  ". UPHF ."
-  ". ISEN .";
+    ". Rotary ."
+    ". UPHF ."
+    ". ISEN .";
   h1 {
     color: $dark-color;
     font-size: 20px;
@@ -24,17 +24,18 @@
   }
 }
 
-@media screen and (max-width: 800px){
-.Education{
+@media screen and (max-width: 800px) {
+  .Education {
     grid-template-columns: 4vh 2fr 4vh;
-}}
+  }
+}
 
-.Rotary{
-    grid-area: Rotary;
+.Rotary {
+  grid-area: Rotary;
 }
-.ISEN{
-    grid-area: ISEN;
+.ISEN {
+  grid-area: ISEN;
 }
-.UPHF{
-    grid-area: UPHF;
+.UPHF {
+  grid-area: UPHF;
 }

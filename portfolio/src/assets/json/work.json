@@ -5,15 +5,31 @@
       "description": "During this three year internship, I worked as an assistant to senior Network Architects in the Enterprise Infrastructure at Ubisoft It.\n\nOver these three years, I had the opportunity to work on projects involving the creation of Network automation tools and the configuration of Cisco devices. I also worked daily with senior Network Architects and senior Python Developers to help conceive Network oriented solutions. Part of my work was to understand and adapt to the environment and tools used on a day to day basis such as several UNIX OS, Microsoft tools and hardware.",
       "tilte2": "Missions",
       "missions": [
-        "Script deployement/ maintenance [Python]",
-        "Network device monitoring",
-        "Network task automation:",
-        "Interface configuration service [Python]",
-        "Documented researches",
-        "Web front tool plateform [Typescript]",
-        "Networking lab configuration [Eve-ng]",
-        "Agnostic Network Device communication Library:",
-        "Python library giving access to a configuration interface for network devices agnostic of their constructor"
+        { "id": "1", "mission": "Script deployement/ maintenance [Python]" },
+        { "id": "2", "mission": "Network device monitoring" },
+        { "id": "3", "mission": "Network task automation:" },
+        { "id": "4", "mission": "Interface configuration service [Python]" },
+        { "id": "5", "mission": "Documented researches" },
+        { "id": "6", "mission": "Web front tool plateform [Typescript]" },
+        { "id": "7", "mission": "Networking lab configuration [Eve-ng]" },
+        {
+          "id": "8",
+          "mission": "Agnostic Network Device communication Library:"
+        },
+        {
+          "id": "9",
+          "mission": "Python library giving access to a configuration interface for network devices agnostic of their constructor"
+        }
+      ]
+    },
+    "straton": {
+      "title": "2024\nStraton DICM\nChef de projet Intégrateur",
+      "description": "During this three year internship, I worked as an assistant to senior Network Architects in the Enterprise Infrastructure at Ubisoft It.\n\nOver these three years, I had the opportunity to work on projects involving the creation of Network automation tools and the configuration of Cisco devices. I also worked daily with senior Network Architects and senior Python Developers to help conceive Network oriented solutions. Part of my work was to understand and adapt to the environment and tools used on a day to day basis such as several UNIX OS, Microsoft tools and hardware.",
+      "tilte2": "Missions",
+      "missions": [
+        { "id": "1", "mission": "Installation de logiciel DCIM" },
+        { "id": "2", "mission": "Intégration de données client" },
+        { "id": "3", "mission": "Développement de momdules d'intérconnectabilité [Python]" }
       ]
     }
   }
