@@ -1,0 +1,82 @@
+@import "../../../assets/stylesheet/variables.scss";
+
+.Work {
+  display: grid;
+  color: $dark-color;
+  align-items: center;
+  justify-items: center;
+  white-space: pre-wrap;
+  grid-template-rows: 1fr min-content 1em min-content 1fr;
+  row-gap: 3em;
+  grid-template-columns: 4vh repeat(2, 1fr) 4vh;
+  grid-template-areas:
+    ". . . ."
+    ". Ubisoft ImageUbi ."
+    ". Delimiter Delimiter ."
+    ". ImageStraton Straton ."
+    ". . . .";
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+    text-align: justify;
+  }
+  li {
+    margin: 0.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Work {
+    grid-template-columns: 4vw min-content 4vw;
+    grid-template-areas:
+      ". . ."
+      ". Ubisoft ."
+      ". Delimiter ."
+      ". Straton ."
+      ". . .";
+  }
+}
+.Delimiter {
+  grid-area: Delimiter;
+  min-height: 5px;
+  min-width: 81vw;
+  background: black;
+  color: black;
+  margin: 9;
+}
+
+.ImageUbi{
+    grid-area: ImageUbi;
+    max-width: 30vw;
+    border: $stroke;
+  }
+.ImageStraton{
+    grid-area: ImageStraton;
+    max-width: 30vw;
+    border: $stroke;
+  }
+
+.Ubisoft {
+  grid-area: Ubisoft;
+
+  .UMissionTitle {
+    grid-area: UMissionTitle;
+  }
+  .UTitle {
+    grid-area: UTitle;
+  }
+  .UDescription {
+    grid-area: UDescription;
+  }
+}
+
+.MissionTitle {
+  text-decoration: underline;
+}
+
+.Straton {
+  margin: 4em 0;
+  grid-area: Straton;
+}

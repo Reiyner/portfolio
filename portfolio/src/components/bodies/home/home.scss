@@ -1,0 +1,36 @@
+@import "../../../assets/stylesheet/variables.scss";
+
+.Home {
+  h1 {
+    grid-area: HomeH1;
+    font-size: 3em;
+    color: $dark-color;
+  }
+  text-align: center;
+
+  p {
+    grid-area: Homep;
+    text-align: center;
+    color: $dark-color;
+    font-size: 1.3em;
+    white-space: pre-wrap;
+  }
+  display: grid;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: $page-margin 1fr min-content 1fr $page-margin;
+  grid-template-rows: 1fr repeat(3,min-content) 1fr;
+  grid-template-areas:
+    ". . . . ."
+    ". HomeH1 HomeH1 HomeH1 ."
+    ". Homep Homep Homep ."
+    ". . Arrow . ."
+    ". Skills Skills Skills ."
+    ". . . . .";
+}
+
+.Arrow {
+  grid-area: Arrow;
+  max-width: 50px;
+  justify-content: center;
+}

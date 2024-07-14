@@ -1,0 +1,21 @@
+@import "../../../assets/stylesheet/variables.scss";
+
+.Projects {
+  display: grid;
+  color: $dark-color;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    ". . ."
+    ". Text ."
+    ". . .";
+  p {
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 2em;
+    font-weight: bold;
+    grid-area: Text;
+  }
+}

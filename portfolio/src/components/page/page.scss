@@ -1,0 +1,50 @@
+@import "../../assets/stylesheet/variables.scss";
+
+.Body {
+  grid-area: Body;
+  border: $stroke;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.Body::-webkit-scrollbar {
+  display: none;
+}
+
+#Page {
+  background-color: $background-color;
+  display: grid;
+  grid-template-columns: 1.5vw 9.5vw 1.5vw 86vw 1.5vw;
+  grid-template-rows: $page-margin 1.5vh $page-margin 5vh $page-margin 72vh $page-margin 14vh $page-margin;
+  grid-template-areas:
+    ". . . . ."
+    ". Side . Structure . "
+    ". Side . . . "
+    ". Side . Header ."
+    ". Side . . . "
+    ". Side . Body ."
+    ". Side . . . "
+    ". Side . Footer . "
+    ". . . . .";
+}
+
+@media screen and (max-width: 800px) {
+  #Page {
+    background-color: $background-color;
+    grid-template-columns: 1.5vw 1.5vw repeat(6, 1fr) 1.5vw 1.5vw;
+    grid-template-rows: 1.5vh min-content 1.5vh 1.5vh 1.5vh 3vh 1.5vh 1.5vh 80vh 1.5vh;
+    max-height: 100vh;
+
+    #Header {
+      display: none;
+    }
+
+    .Body {
+      grid-row-start: 7;
+      grid-row-end: 10;
+      grid-column-start: 2;
+      grid-column-end: 10;
+      display: grid;
+    }
+  }
+}

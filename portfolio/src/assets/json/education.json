@@ -1,0 +1,43 @@
+{
+  "content": {
+    "english": {
+      "rotary": {
+        "title": "2017-2018\nRotary Youth Exchange Program\nNeepawa, Manitoba Canada",
+        "content": "Right after my graduation from high-school, I had the opportunity to go on an exchange thanks to the Youth Exchange program from the Rotary club !\nThis year abroad led me to Neepawa, a lovely city in Manitoba, Canada.\nThere, I was introduced to live musical and theater. I came out from this experience as fluent in English"
+      },
+      "uphf": {
+        "title": "2018-2020\nUniversité Polytechnique des Hauts-de-France UPHF\nDUT Phisical Measurement",
+        "content": "I obtained a University Diploma in Physical Measurements heavily science related back in 2020.\nThe curriculum covers everything from Chemistry and Atomical structure of Matter to Fluids Mecanics and Electronics.\nThis broad spectrum of subjects is a great stepping stone to Engineering provided it shows us a multiple array of disciplines. As this education teaches about measurements, we were thaugt certain methodologies and rigor to our work."
+      },
+      "isen": {
+        "title": "2020-2023\nISEN Junia - Lille\nDigital Engineer Degree - Network Engineer Internship",
+        "content": "Finaly, I joined ISEN - Lille with the goal to learn everything I needed to be a proficient Engineer.\nMy curisoty and my interest for computer science were rewarded with the multiple speaker we encounter in our course.\nThroughout this curriculum, we worked on technical skills as much as soft skills."
+      }
+    },
+    "french": {
+      "rotary": {
+        "title": "2017-2018\nRotary Youth Exchange Program\nNeepawa, Manitoba Canada",
+        "paragraph": {
+          "phrase1": "Right after my graduation from high-school, I had the opportunity to go on an exchange thanks to the Youth Exchange program from the Rotary club !",
+          "phrase2": "This year abroad led me to Neepawa, a lovely city in Manitoba, Canada.",
+          "phrase3": "There, I was introduced to live musical and theater. I came out from this experience as fluent in English"
+        }
+      },
+      "uphf": {
+        "title": "2018-2020\nUniversité Polytechnique des Hauts-de-France UPHF\nDUT Phisical Measurement",
+        "paragraph": {
+          "phrase1": "I obtained a University Diploma in Physical Measurements heavily science related back in 2020.",
+          "phrase2": "The curriculum covers everything from Chemistry and Atomical structure of Matter to Fluids Mecanics and Electronics.",
+          "phrase3": "This broad spectrum of subjects is a great stepping stone to Engineering provided it shows us a multiple array of disciplines. As this education teaches about measurements, we were thaugt certain methodologies and rigor to our work."
+        }
+      },
+      "isen": {
+        "title": "2020-2023\nISEN Junia - Lille\nDigital Engineer Degree - Network Engineer Internship",
+        "paragraph": {
+          "phrase1": "Finaly, I joined ISEN - Lille with the goal to learn everything I needed to be a proficient Engineer.\nMy curisoty and my interest for computer science were rewarded with the multiple speaker we encounter in our course.",
+          "phrase2": "Throughout this curriculum, we worked on technical skills as much as soft skills."
+        }
+      }
+    }
+  }
+}
