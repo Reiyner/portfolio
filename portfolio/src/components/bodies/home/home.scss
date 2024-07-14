@@ -19,12 +19,13 @@
   align-items: center;
   align-content: center;
   grid-template-columns: $page-margin 1fr min-content 1fr $page-margin;
-  grid-template-rows: 1fr min-content min-content 1fr;
+  grid-template-rows: 1fr repeat(3,min-content) 1fr;
   grid-template-areas:
     ". . . . ."
     ". HomeH1 HomeH1 HomeH1 ."
     ". Homep Homep Homep ."
     ". . Arrow . ."
+    ". Skills Skills Skills ."
     ". . . . .";
 }
 

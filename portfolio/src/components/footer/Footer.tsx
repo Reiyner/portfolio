@@ -11,19 +11,21 @@ export default function Footer() {
       id: 1,
       src: LinkedIn,
       href: "https://www.linkedin.com/in/mpalkowski-pub",
+      label: "LinkedIn",
       value: "LinkedIn",
     },
-    { id: 2, src: Git, href: "https://github.com/Reiyner", value: "Git" },
+    { id: 2, src: Git, href: "https://github.com/Reiyner", label:"Git", value: "Git" },
     {
       id: 3,
       src: Proton,
-      href: "maxence.palkowski_pro@proton.me",
+      href: "mailto:maxence.palkowski_pro@proton.me",
+      label: "maxence.palkowski_pro@proton.me",
       value: "Proton",
     },
   ];
 
-  const logo = res.map(({ id, src, href, value }) => (
-    <LogoButton key={id} value={value} href={href} src={src} />
+  const logo = res.map(({ id, src, href, value, label }) => (
+    <LogoButton key={id} value={value} href={href} label={label} src={src} />
   ));
 
   return (
