@@ -1,19 +1,40 @@
-@import '../../../assets/stylesheet/variables.scss';
+@import "../../../assets/stylesheet/variables.scss";
 
+.Education {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas:
+  ". Rotary ."
+  ". UPHF ."
+  ". ISEN .";
+  h1 {
+    color: $dark-color;
+    font-size: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: justify;
+    white-space: pre-wrap;
+    color: $dark-color;
+  }
+}
+
+@media screen and (max-width: 800px){
 .Education{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    h1{
-        color: $dark-color;
-        font-size: 20px;
-        white-space: pre-wrap;
-        text-align: center;
-    }
-    
-    p{
-        font-size: 15px;
-        text-align: center;
-        white-space: pre-wrap;
-        color: $dark-color;
-    }
+    grid-template-columns: 4vh 2fr 4vh;
+}}
+
+.Rotary{
+    grid-area: Rotary;
+}
+.ISEN{
+    grid-area: ISEN;
+}
+.UPHF{
+    grid-area: UPHF;
 }

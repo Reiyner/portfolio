@@ -1,8 +1,8 @@
-{"content":
 {
+  "content": {
     "title": "Hello there !",
     "titleFr": "Bonjour & Bienvenue !",
-    "body":"Welcome to this web site aiming to present me and my work.\nI am a French Digital Engineer who likes to explore & try out new things.\nDo not hesitate to contact me through the different buttons next to my name !\n\nThis is still the first Version of this web site, more will come in the future ! ",
-    "bodyFr":"Ce site vise à me présenter ainsi que mon travail.\nJe suis un ingénieur numérique qui aime apprendre et découvrir de nouveaux outils.\nCeci est encore la première version, d'autres nouveautés arriveront bientôt !"
-}
+    "body": "Welcome to this web site aiming to present me and my work.\nI am a French Digital Engineer who likes to explore & try out new things.\nDo not hesitate to contact me through the different buttons next to my name !\n\nThis is still the first Version of this web site, more will come in the future ! ",
+    "bodyFr": "Ce site vise à me présenter ainsi que mon travail.\nJe suis un ingénieur numérique qui aime apprendre et découvrir de nouveaux outils.\nCeci est encore la première version, d'autres nouveautés arriveront bientôt !"
+  }
 }

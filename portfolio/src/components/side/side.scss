@@ -1,20 +1,19 @@
 @import "../../assets/stylesheet/variables.scss";
 
-#Side{
-    object-fit: cover;
-    grid-area: Side;
-    display: grid;
-    border: $stroke ;
-    overflow: hidden;
-    img{
-        grid-area: img;
-        object-position: -250px;
-        max-height: 97vh;
-    }
+#Side {
+  object-fit: cover;
+  grid-area: Side;
+  display: grid;
+  border: $stroke;
+  overflow: hidden;
+  img {
+    grid-area: img;
+    object-position: -250px;
+    max-height: 97vh;
+  }
 }
-@media screen and (max-width: 800px){
-
-#Side{
+@media screen and (max-width: 800px) {
+  #Side {
     display: none;
     max-height: 6vh;
     z-index: 1;
@@ -24,8 +23,8 @@
     grid-row-start: 4;
     grid-row-end: 7;
 
-    img{
-        max-height: 70%;
+    img {
+      max-height: 70%;
     }
-} 
+  }
 }
