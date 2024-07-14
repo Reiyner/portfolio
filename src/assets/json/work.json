@@ -3,7 +3,7 @@
     "ubisoft": {
       "title": "2020-2023\nUbisoft International - Internship\nAssistant IT / Développeur python",
       "description": "Pendant cette alternance, j'ai travaillé comme assistant auprès des architectes réseau seniors dans l'infrastructure d'entreprise chez Ubisoft IT.\n\nAu cours de ces trois années, j'ai eu l'opportunité de travailler sur des projets impliquant la création d'outils d'automatisation réseau et la configuration de dispositifs Cisco. J'ai également collaboré quotidiennement avec des architectes réseau seniors et des développeurs Python seniors pour aider à concevoir des solutions orientées réseau. \n\nUne partie de mon travail consistait à comprendre et à m'adapter à l'environnement et aux outils utilisés au quotidien, tels que plusieurs systèmes d'exploitation UNIX, des outils Microsoft et du matériel.",
-      "tilte2": "Missions",
+      "title2": "Missions",
       "missions": [
         {
           "id": "1",
@@ -26,6 +26,7 @@
     "straton": {
       "title": "Mars - Juin 2024\nStraton DICM\nChef de projet Intégrateur",
       "description": "Straton DCIM est une entreprise de service et de conseil en informatique.\n\nCette entreprise propose un accompagnement pour l'installation et l'intégration d'un logiciel de DCIM (logiciel de gestion d'infrastructure de datacenter) chez le client.\n\nLe chef de projet intégrateur va suire les clients dans l'installation et l'utilsation de ces logiciels dans leur infrastructure.",
+      "title2": "Missions",
       "missions": [
         {
           "id": "1",

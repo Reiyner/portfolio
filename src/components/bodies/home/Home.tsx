@@ -1,7 +1,5 @@
 import data from "../../../assets/json/home.json";
-import arrow from "../../../assets/pic/down-arrow-svgrepo-com.svg";
 import "./home.scss";
-import Skills from "../skills/Skills.tsx";
 
 export default function Home() {
   return (

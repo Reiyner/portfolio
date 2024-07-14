@@ -21,7 +21,7 @@ export default function Work() {
         <h1 className="UTitle">{data.content.ubisoft.title}</h1>
         <p className="UDescription">{data.content.ubisoft.description}</p>
         <h2 className="MissionTitle UMissionTitle">
-          {data.content.ubisoft.tilte2}
+          {data.content.ubisoft.title2}
         </h2>
         <p className="UMissions">{ubiMission}</p>
       </div>
@@ -31,7 +31,7 @@ export default function Work() {
         <h1 className="STitle">{data.content.straton.title}</h1>
         <p className="SDescription">{data.content.straton.description}</p>
         <h2 className="MissionTitle sMissionTitle">
-          {data.content.straton.tilte2}
+          {data.content.straton.title2}
         </h2>
         <p className="SMissions">{strMission}</p>
       </div>
