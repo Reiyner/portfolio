@@ -4,11 +4,11 @@ import "./header.scss";
 
 export default function Header() {
   const pages = [
-    { id: 1, name: "Accueil", to: "/" },
-    { id: 2, name: "A Propos", to: "/about" },
-    { id: 3, name: "Education", to: "/education" },
-    { id: 4, name: "Experience Pro", to: "/work" },
-    { id: 5, name: "Projets", to: "/projects" },
+    { id: 1, name: "Accueil", to: "/portfolio/" },
+    { id: 2, name: "A Propos", to: "/portfolio/about" },
+    { id: 3, name: "Education", to: "/portfolio/education" },
+    { id: 4, name: "Experience Pro", to: "/portfolio/work" },
+    { id: 5, name: "Projets", to: "/portfolio/projects" },
   ];
   const headerButtons = pages.map(({ id, name, to }) => (
     <HeaderButton key={id} id={id} name={name} to={to} />

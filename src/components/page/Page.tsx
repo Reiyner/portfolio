@@ -16,11 +16,11 @@ import { useEffect, useState } from "react";
 
 export default function Page() {
   const photos = [
-    { id: 1, pic: me, loc: "/" },
-    { id: 2, pic: htl, loc: "/about" },
-    { id: 3, pic: mtn, loc: "/education" },
-    { id: 4, pic: dog, loc: "/work" },
-    { id: 5, pic: blc, loc: "/projects" },
+    { id: 1, pic: me, loc: "/portfolio/" },
+    { id: 2, pic: htl, loc: "/portfolio/about" },
+    { id: 3, pic: mtn, loc: "/portfolio/education" },
+    { id: 4, pic: dog, loc: "/portfolio/work" },
+    { id: 5, pic: blc, loc: "/portfolio/projects" },
   ];
   const [picture, setPicture] = useState("");
 
